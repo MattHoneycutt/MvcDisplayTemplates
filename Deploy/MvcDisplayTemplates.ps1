@@ -1,6 +1,6 @@
 properties {
 	$BaseDir = Resolve-Path "..\"
-	$ProjectPath = "$BaseDir\MvcDisplayTemplates.nuspec"	
+	$ProjectPath = "$BaseDir\Deploy\MvcDisplayTemplates.nuspec"	
 	
 	$NuGetPackageName = "MvcDisplayTemplates"
 	
