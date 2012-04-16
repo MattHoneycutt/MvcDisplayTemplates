@@ -14,7 +14,7 @@ if ((Get-Module pscx) -eq $null) {
 	$loadedPscx = $true;
 }
 
-invoke-psake "$($PackageName).ps1" -taskList Pack
+invoke-psake "$($PackageName).ps1" -taskList Publish
 
 if ($loadedPscx) { 
 	remove-module pscx

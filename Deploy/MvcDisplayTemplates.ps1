@@ -4,7 +4,7 @@ properties {
 	
 	$NuGetPackageName = "MvcDisplayTemplates"
 	
-	$Version = "1.0.0-alpha"
+	$Version = "1.0.0"
 }
 
 $framework = '4.0'
