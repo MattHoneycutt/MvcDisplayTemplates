@@ -3,8 +3,6 @@ properties {
 	$ProjectPath = "$BaseDir\Deploy\MvcDisplayTemplates.nuspec"	
 	
 	$NuGetPackageName = "MvcDisplayTemplates"
-	
-	$Version = "1.0.0"
 }
 
 $framework = '4.0'
@@ -21,7 +19,7 @@ task Clean -depends Init {
 
 task Pack -depends Clean {
 
-	exec { nuget pack "$ProjectPath" -version "$Version" }
+	exec { nuget pack "$ProjectPath" }
 }
 
 task Publish -depends Pack {
