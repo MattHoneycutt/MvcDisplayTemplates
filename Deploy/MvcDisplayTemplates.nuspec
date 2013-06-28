@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>MvcDisplayTemplates</id>
-    <version>2.0.0</version>
+    <version>3.0.0</version>
     <authors>Matt Honeycutt</authors>
     <owners>Matt Honeycutt</owners>
     <projectUrl>https://github.com/MattHoneycutt/MvcDisplayTemplates</projectUrl>
@@ -13,7 +13,7 @@
     <copyright>Copyright 2012</copyright>
     <tags>ASP.NET MVC SpecsFor.Mvc</tags>
 	  <dependencies>
-		  <dependency id="Mvc3Futures" version="3.0.20105.0" />
+		  <dependency id="Mvc4Futures" version="4.0.20710.0" />
 	  </dependencies>
   </metadata>
 	<files>
