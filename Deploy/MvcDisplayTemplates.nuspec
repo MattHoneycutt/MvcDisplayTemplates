@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>MvcDisplayTemplates</id>
-    <version>3.0.0</version>
+    <version>4.0.0</version>
     <authors>Matt Honeycutt</authors>
     <owners>Matt Honeycutt</owners>
     <projectUrl>https://github.com/MattHoneycutt/MvcDisplayTemplates</projectUrl>
@@ -10,10 +10,10 @@
 		Adds Razor DisplayTemplates that match the default templates embedded in System.Web.Mvc.  These are meant to serve as a starting point for creating your own display templates.  
 		They also add a little bit of magic to make ASP.NET MVC applications testable by SpecsFor.Mvc. 
 	</description>
-    <copyright>Copyright 2012</copyright>
+    <copyright>Copyright 2014</copyright>
     <tags>ASP.NET MVC SpecsFor.Mvc</tags>
 	  <dependencies>
-		  <dependency id="Mvc4Futures" version="4.0.20710.0" />
+		  <dependency id="Microsoft.AspNet.Mvc" version="5.0.0" />
 	  </dependencies>
   </metadata>
 	<files>

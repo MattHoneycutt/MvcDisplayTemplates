@@ -1,6 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.Web.Mvc;
-using Microsoft.Web.Mvc;
 
 namespace MvcDisplayTemplates.Web.Controllers
 {
